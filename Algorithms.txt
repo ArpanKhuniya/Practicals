@@ -1,0 +1,14 @@
+BFS ALGO
+
+1)Start by putting any one of the graph’s vertices at the back of the queue.
+2)Now take the front item of the queue and add it to the visited list.
+3)Create a list of that vertex's adjacent nodes. Add those which are not within the visited list to the rear of the queue.
+4)Keep continuing steps two and three till the queue is empty.
+
+
+DFS ALGO
+
+1)We will start by putting any one of the graph's vertex on top of the stack.
+2)After that take the top item of the stack and add it to the visited list of the vertex.
+3)Next, create a list of that adjacent node of the vertex. Add the ones which aren't in the visited list of vertexes to the top of the stack.
+4)Lastly, keep repeating steps 2 and 3 until the stack is empty.
